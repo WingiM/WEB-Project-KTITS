@@ -1,5 +1,6 @@
 :root {
   --primary-color: #82d7f7;
+  --primary-color-green: #4AFFB3;
   --secondary-color: #0082c6;
 }
 
@@ -16,7 +17,7 @@ body {
 }
 
 header {
-  background-color: var(--primary-color);
+  background:linear-gradient(269.93deg, var(--primary-color-green) 5.5%, var(--secondary-color) 96.03%);
   height: 15vh;
   display: flex;
   align-items: center;
@@ -99,7 +100,8 @@ main {
 .advantage-card {
   width: 20vw;
   height: 300px;
-  background-color: white;
+  background: linear-gradient(180deg, var(--primary-color-green) -33.55%, var(--secondary-color) 100%);
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -126,8 +128,11 @@ h1 {
   position: relative;
   width: 90%;
   min-height: 500px;
-  background: #82D7F7;
-  border: 7px solid #0082C6;
+  background: linear-gradient(256.1deg, var(--primary-color) 3.48%, var(--secondary-color) 100%);
+}
+
+.pgr {
+  background: linear-gradient(254.89deg, #0082C6 15.75%, #82D7F7 88.97%);
 }
 
 .work h2 {
@@ -173,7 +178,7 @@ h1 {
 }
 
 .review-card {
-  background-color: var(--secondary-color);
+  background: linear-gradient(189.08deg, var(--primary-color-green) -8.58%, var(--secondary-color) 93.11%);
   color: white;
   font-size: 24px;;
   width: 27%;
@@ -208,7 +213,7 @@ h1 {
 
 .contact-form {
   position: relative;
-  background-color: var(--secondary-color);
+  background: linear-gradient(89.63deg, var(--primary-color-green) 0.4%, var(--secondary-color) 99.77%);;
   max-height: 500px;
 }
 
@@ -243,7 +248,7 @@ input[type="submit"]
 }
 
 .contact-block {
-  background-color: var(--secondary-color);
+  background: linear-gradient(269.36deg, var(--primary-color-green) 0.5%, var(--secondary-color) 99.41%);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
