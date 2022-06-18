@@ -1,381 +1,387 @@
 :root {
-    --primary-color: #82d7f7;
-    --secondary-color: #0082c6;
+  --primary-color: #82d7f7;
+  --primary-color-green: #4AFFB3;
+  --secondary-color: #0082c6;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Ubuntu", serif;
-    font-style: normal;
-    font-weight: 400;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
 }
 
 header {
-    background-color: var(--primary-color);
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-    filter: drop-shadow(0px 4px 12px #000000);
-    z-index: 1;
+  background:linear-gradient(269.93deg, var(--primary-color-green) 5.5%, var(--secondary-color) 96.03%);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  filter: drop-shadow(0px 4px 12px #000000);
+  z-index: 1;
 
 }
 
 main {
-    position: relative;
-    z-index: 0;
+  position: relative;
+  z-index: 0;
 }
 
 .logo {
-    height: 60%;
-    margin-left: 5%;
+  height: 60%;
+  margin-left: 5%;
 }
 
 .navigation {
-    margin-right: 10%;
-    font-size: 30px;
+  margin-right: 10%;
+  font-size: 30px;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: white;
-    margin: 0 20px 0 20px;
+  text-decoration: none;
+  color: white;
+  margin: 0 20px 0 20px;
 }
 
 .about {
-    position: relative;
-    height: 800px;
-    overflow: hidden;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
 }
 
 .about-text {
-    font-size: 36px;
-    text-align: center;
-    background: #ffffff;
-    opacity: 0.8;
-    border-radius: 40px;
-    color: #000000;
-    position: absolute;
-    width: 65%;
-    left: 50%;
-    margin-top: 50px;
-    transform: translateX(-50%);
-    padding: 20px;
+  font-size: 36px;
+  text-align: center;
+  background: #ffffff;
+  opacity: 0.8;
+  border-radius: 40px;
+  color: #000000;
+  position: absolute;
+  width: 65%;
+  left: 50%;
+  margin-top: 50px;
+  transform: translateX(-50%);
+  padding: 20px;
 }
 
 .rectangle {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 102%;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 66.15%, #FFFFFF 100%);
-    z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 102%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 66.15%, #FFFFFF 100%);
+  z-index: 1;
 }
 
 .about-image {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 .advantages {
-    display: flex;
-    width: 80%;
-    justify-content: space-between;
-    position: absolute;
-    bottom: 10%;
-    z-index: 2;
-    margin-left: 50%;
-    transform: translateX(-50%);
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 10%;
+  z-index: 2;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 .advantage-card {
-    width: 20vw;
-    height: 300px;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 24px;
-    border-radius: 40px;
+  width: 20vw;
+  height: 300px;
+  background: linear-gradient(180deg, var(--primary-color-green) -33.55%, var(--secondary-color) 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 40px;
 }
 
 h1 {
-    font-size: 48px;
-    text-align: center;
+  font-size: 48px;
+  text-align: center;
 }
 
 .portfolio {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .work {
-    margin: 20px auto;
-    padding: 10px;
-    position: relative;
-    width: 90%;
-    min-height: 500px;
-    background: #82D7F7;
-    border: 7px solid #0082C6;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: relative;
+  width: 90%;
+  min-height: 500px;
+  background: linear-gradient(256.1deg, var(--primary-color) 3.48%, var(--secondary-color) 100%);
+}
+
+.pgr {
+  background: linear-gradient(254.89deg, #0082C6 15.75%, #82D7F7 88.97%);
 }
 
 .work h2 {
-    text-align: center;
-    font-size: 40px;
+  text-align: center;
+  font-size: 40px;
 }
 
 
 .work-card {
-    padding: 20px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    width: 90%;
+  padding: 20px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  width: 90%;
 }
 
 .work-card p {
-    position: relative;
-    margin-left: 20px;
-    font-size: 27px;
+  position: relative;
+  margin-left: 20px;
+  font-size: 27px;
 }
 
 .work-card img {
-    width: 50%;
-    object-fit: contain;
+  width: 50%;
+  object-fit: contain;
 }
 
 .reviews {
-    background-color: #F1F1F1;
-    position: relative;
-    min-height: 580px;
-    padding: 25px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-bottom: 2px solid grey;
+  background-color: #F1F1F1;
+  position: relative;
+  min-height: 580px;
+  padding: 25px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-bottom: 2px solid grey;
 }
 
 .review-cards {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .review-card {
-    background-color: var(--secondary-color);
-    color: white;
-    font-size: 24px;;
-    width: 27%;
-    padding: 20px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  background: linear-gradient(189.08deg, var(--primary-color-green) -8.58%, var(--secondary-color) 93.11%);
+  color: white;
+  font-size: 24px;;
+  width: 27%;
+  padding: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .contacts {
-    position: relative;
-    z-index: 0;
-    background-color: #F1F1F1;
-    padding: 50px;
+  position: relative;
+  z-index: 0;
+  background-color: #F1F1F1;
+  padding: 50px;
 }
 
 .contacts h1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .contact-blocks {
-    position: relative;
-    display: flex;
-    justify-content: space-around;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contact-blocks > * {
-    width: 35%;
+  width: 35%;
 }
 
 .contact-form {
-    position: relative;
-    background-color: var(--secondary-color);
-    max-height: 500px;
+  position: relative;
+  background: linear-gradient(89.63deg, var(--primary-color-green) 0.4%, var(--secondary-color) 99.77%);;
+  max-height: 500px;
 }
 
 .form-elements {
-    position: relative;
-    height: 100%;
-    top: 50%;
-    transform: translateY(-40%);
+  position: relative;
+  height: 100%;
+  top: 50%;
+  transform: translateY(-40%);
 }
 
 .form-elements * {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 60%;
-    margin: 10px;
-    font-size: 24px;
-    padding: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  margin: 10px;
+  font-size: 24px;
+  padding: 15px;
 }
 
-input[type="submit"] {
-    padding: 0;
-    width: 40%;
+input[type="submit"]
+{
+  padding: 0;
 }
 
 .form-elements input {
-    height: 10%;
+  height: 10%;
 }
 
 .form-elements textarea {
-    height: 30%;
+  height: 30%;
 }
 
 .contact-block {
-    background-color: var(--secondary-color);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    color: white;
+  background: linear-gradient(269.36deg, var(--primary-color-green) 0.5%, var(--secondary-color) 99.41%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }
 
 .contact-element {
-    padding: 30px;
-    display: flex;
-    font-size: 36px;
-    align-items: center;
+  padding: 30px;
+  display: flex;
+  font-size: 36px;
+  align-items: center;
 }
 
 .contact-element p {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 footer {
-    background-color: var(--secondary-color);
-    color: white;
-    font-size: 40px;
-    padding: 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-size: 40px;
+  padding: 20px;
 }
 
 @media screen and (max-width: 1279px) {
-    .navigation {
-        font-size: 20px;
-    }
+  .navigation {
+    font-size: 20px;
+  }
 
-    .logo {
-        height: 40%;
-    }
+  .logo {
+    height: 40%;
+  }
 
-    .navigation a {
-        display: block;
-    }
+  .navigation a {
+    display: block;
+  }
 
-    h1 {
-        font-size: 36px;
-    }
+  h1 {
+    font-size: 36px;
+  }
 
-    .about-text {
-        font-size: 20px;
-    }
+  .about-text {
+    font-size: 20px;
+  }
 
-    .advantage-card {
-        width: 30%;
-        height: 300px;
-        font-size: 20px;
-    }
+  .advantage-card {
+    width: 30%;
+    height: 300px;
+    font-size: 20px;
+  }
 
-    .advantage-card img {
-        width: 80%;
-    }
+  .advantage-card img {
+    width: 80%;
+  }
 
-    .work h2 {
-        font-size: 26px;
-    }
+  .work h2 {
+    font-size: 26px;
+  }
 
-    .work-card {
-        flex-direction: column;
-    }
+  .work-card {
+    flex-direction: column;
+  }
+  
+  .work-card p {
+    font-size: 15px;
+  }
 
-    .work-card p {
-        font-size: 15px;
-    }
+  .work-card img {
+    object-fit: fill;
+    width: 90%;
+  }
 
-    .work-card img {
-        object-fit: fill;
-        width: 90%;
-    }
+  .review-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .review-card {
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 400px;
+    font-size: 20px;
+  }
 
-    .review-cards {
-        flex-direction: column;
-        align-items: center;
-    }
+  .contact-blocks {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .review-card {
-        margin-bottom: 20px;
-        width: 80%;
-        max-width: 400px;
-        font-size: 20px;
-    }
+  .contact-blocks > * {
+    width: 80%;
+    margin: 15px;
+  }
 
-    .contact-blocks {
-        flex-direction: column;
-        align-items: center;
-    }
+  .form-elements {
+    position: relative;
+    height: 100%;
+    top: 0;
+    transform: none;
+  }
+  
+  .form-elements * {
+    font-size: 15px;
+  }
 
-    .contact-blocks > * {
-        width: 80%;
-        margin: 15px;
-    }
+  .contact-element {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 80%;
+  }
 
-    .form-elements {
-        position: relative;
-        height: 100%;
-        top: 0;
-        transform: none;
-    }
+  .contact-element p {
+    margin: auto;
+  }
 
-    .form-elements * {
-        font-size: 15px;
-    }
-
-    .contact-element {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-        width: 80%;
-    }
-
-    .contact-element p {
-        margin: auto;
-    }
-
-    footer h1 {
-        font-size: 20px;
-    }
+  footer h1 {
+    font-size: 20px;
+  }
 }
 
-@media screen and (max-width: 500px) {
-    .advantages {
-        display: none;
-    }
+@media screen and (max-width:500px) {
+  .advantages {
+    display: none;
+  }
 
-    .about-text {
-        font-size: 15px;
-    }
+  .about-text {
+    font-size: 15px;
+  }
 
-    .about {
-        height: 400px;
-    }
+  .about {
+    height: 400px;
+  }
 }
